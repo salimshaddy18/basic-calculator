@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.outter {
+    border: 3px solid black;
+    height: 90vh;
+    width: 40vw;
+    margin: auto;
+    /* margin-top: 50px; */
+    background-color: #674188;
+    border-radius: 20px;
+}
+
+.res {
+    font-size: xx-large;
+    border: 2px solid black;
+    width: 35vw;
+    height: 15vh;
+    margin: auto;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    padding: 1px 10px 10px 1px;
+    background-color: #C8A1E0;
+    border-radius: 20px;
+}
+
+.btns {
+    border: 2px solid black;
+    width: 35vw;
+    height: 63vh;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #C8A1E0;
+    border-radius: 20px;
+
+}
+
+.buton {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 7vw;
+    height: 9vh;
+    text-align: center;
+    /* padding-top: 9px; */
+    font-size: xx-large;
+    background-color: #F7EFE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buton:hover {
+    cursor: pointer;
+}
+
+.buton:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* for phone */
+@media only screen and (max-width: 600px) {
+    .outter {
+        width: 95vw;
+    }
+
+    .res {
+        width: 95%;
+    }
+
+    .btns {
+        width: 95%;
+        gap: 1%;
+    }
+
+    .buton {
+        width: 22%;
+    }
+}
